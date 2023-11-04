@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ID Card</title>
+  <style>
+    .id-card {
+      border: 2px solid #000;
+      width: 250px;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+      background-color: #f0f0f0;
+    }
+    .photo {
+      width: 300px;
+      height: 300px;
+      border: 1px solid #000;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>ID Card</h1>
+  <div class="id-card">
+    <img class="photo" src="<%= photoPath %>" alt="User Photo">
+    <h2>Name: <%= name %></h2>
+    <p>Sex: <%= sex %></p>
+    <p>DOB: <%= dob %></p>
+    <p>Email ID: <%= email %></p>
+  </div>
+</body>
+</html>
+
