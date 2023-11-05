@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:slim
 WORKDIR /home/mywebapp
 COPY package.json  ./
 RUN npm install
